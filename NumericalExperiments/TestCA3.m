@@ -64,7 +64,7 @@ semilogy(errBest, ':');
 hleg1 = legend( 'Algorithm 3', 'Alg 3, early stop', 'upper bound', 'best rank-k approx. error');
 set(hleg1,'Location','best')
 xlabel('k');
-ylabel('log of approx. error')
+ylabel('approximation error')
 title('Matrix approximation error')
 
 subplot(2,2,2)

@@ -2,7 +2,7 @@ function [S, colNum] = CSS_EarlyStop(A, k)
 % function [S, colNum] = CSS_EarlyStop(A, k)
 % 
 % Given a matrix A and rank k, selects columns S using Algorithm 1 in
-% [Cortinovis/Kressner'2019] with early stop. colNum is the number of
+% [Cortinovis/Kressner'2019]with early stop. colNum is the number of
 % columns that the algorithm had to consider (it will be >= k)
 
 [m, n] = size(A);

@@ -62,7 +62,7 @@ semilogy(errBest, ':');
 hleg1 = legend( 'Algorithm 1', 'Alg.1, early stop', 'upper bound', 'best rank-k approx. error');
 set(hleg1,'Location','best')
 xlabel('k');
-ylabel('log of approx. error')
+ylabel('approximation error')
 title('Approximation error')
 
 subplot(2,2,2)

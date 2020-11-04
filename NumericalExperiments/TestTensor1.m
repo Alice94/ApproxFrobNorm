@@ -50,4 +50,4 @@ semilogy(best1, 'k:')
 hleg1 = legend( 'Algorithm 1', 'Alg.1, early stop', 'quasi-best approx. error');
 set(hleg1,'Location','best')
 xlabel('k');
-ylabel('log of approx. error')
+ylabel('approximation error')

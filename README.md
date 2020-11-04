@@ -1,12 +1,12 @@
 # Low-rank approximation in the Frobenius norm
 
-This contains the implementations of the algorithms presented in [1], and scripts that reproduce all the numerical experiments contained there.
+This contains the implementations of the algorithms presented in [1], as well as scripts that reproduce all the numerical experiments contained there.
 
 ----------------------------------------------------------------
 
 ### Installation
 
-Compile the mex files running the script "compileMex" in Matlab (staying in this folder). Tested in Matlab R2019a.
+Compile the mex files running the script "compileMex" in Matlab (staying in this folder).
 
 ----------------------------------------------------------------
 
@@ -27,13 +27,15 @@ Here is the correspondence between the Figures in the paper and the scripts in t
 
 - Figure 7 --> TestCA2.m
 
-- Figure 8 -->  TestCA3.m
+- Figure 8 --> TestCA3.m
 
-- Figure 9 --> TestTensor1.m (left), TestTensor2.m (right)
+- Figure 9 --> PlotResidualNorm.m
+
+- Figure 10 --> TestTensor1.m (left), TestTensor2.m (right)
 
 - Example at the end of Section 3.1.1 --> TestBadMatrixCSS.m
 
-- Other examples in Section 3.2.3 --> TestBadMatrixCA.m, TestSPDmatrixCA.m
+- Other examples in Section 3.2.3 --> IntermediateResGrowth.m, TestBadMatrixCA.m, TestSPDmatrixCA.m
 
 - Example at the end of page 5 --> CharPolyUpdateFails.m
 

@@ -1,5 +1,5 @@
 function [I, J, numIndices] = CA_EarlyStop(A, k)
-% function [I, J] = CA_EarlyStop(A, k)
+% function [I, J] = CA_MinE(A, k)
 % Given a matrix A and rank k, outputs index sets I, J given by Algorithm 3
 % in [Cortinovis/Kressner'2019] with early stop.
 
